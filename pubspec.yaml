@@ -1,0 +1,126 @@
+name: apps_music
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0-122.0.dev <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  google_fonts: ^6.1.0
+  audioplayers: ^5.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - lib/datas/songs/av.m4a
+    - lib/datas/songs/bad.mp3
+    - lib/datas/songs/bounce.mp3
+    - lib/datas/songs/calm.mp3
+    - lib/datas/songs/charm.mp3
+    - lib/datas/songs/cle.mp3
+    - lib/datas/songs/dior.mp3
+    - lib/datas/songs/dirty.mp3
+    - lib/datas/songs/dull.mp3
+    - lib/datas/songs/dupe.mp3
+    - lib/datas/songs/gasolian.mp3
+    - lib/datas/songs/ginger.mp3
+    - lib/datas/songs/girlfriend.mp3
+    - lib/datas/songs/holiday.mp3
+    - lib/datas/songs/imagine.mp3
+    - lib/datas/songs/joanna.mp3
+    - lib/datas/songs/joha.mp3
+    - lib/datas/songs/lolo.m4a
+    - lib/datas/songs/lonely.mp3
+    - lib/datas/songs/melo.mp3
+    - lib/datas/songs/mess.m4a
+    - lib/datas/songs/meuda.mp3
+    - lib/datas/songs/mogbe.mp3
+    - lib/datas/songs/nzaza.mp3
+    - lib/datas/songs/organise.mp3
+    - lib/datas/songs/parapluie.mp3
+    - lib/datas/songs/reason.mp3
+    - lib/datas/songs/snapchat.mp3
+    - lib/datas/songs/soso.mp3
+    - lib/datas/songs/soundgasm.mp3
+    - lib/datas/songs/sungba.mp3
+    - lib/datas/songs/terminator.mp3
+    - lib/datas/songs/wewe.mp3
+    - lib/datas/songs/wo.mp3
+    - lib/datas/songs/woman.m4a
+    - lib/datas/songs/yours.mp3
+    - lib/datas/thumb/artistes/asake1.jpg
+    - lib/datas/thumb/artistes/cd_tiakola1.jpg
+    - Asake_-_Lonely_At_The_Top_(Official_Video)(256k).mp3
+    - lib/datas/thumb/artistes/rema.jpg
+    - neptune.m4a
+    - lib/datas/songs/loosing_game_drill_remix_by_precious_(lyrics)__arcade_drill_remix(256k).mp3
+    - lib/datas/thumb/artistes/ohmalay.jpg
+    - lib/datas/thumb/artistes/ruger.png
+    - lib/datas/thumb/omah.jpeg
+    - lib/datas/thumb/tiako.jpg
+    - lib/datas/thumb/ruger.jpg
+    - lib/datas/thumb/rema.jpg
+    - lib/datas/thumb/asake.png #
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
