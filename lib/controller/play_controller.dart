@@ -68,7 +68,7 @@ Future<String> pathForInApp() async   {
    String  string = "";
    audioCache = AudioCache();
    if(audioCache!= null){
-     final uri = await audioCache!.load(song.path);
+     final uri = await audioCache!.load('file://${song.path}');
      string = uri.toString();
      return string;
    }

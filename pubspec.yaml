@@ -19,7 +19,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.2.0-122.0.dev <4.0.0'
+  sdk: '>=3.0.6 <4.0.0'
 
 
 dependencies:
@@ -49,55 +49,9 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - lib/datas/songs/av.m4a
-    - lib/datas/songs/bad.mp3
-    - lib/datas/songs/bounce.mp3
-    - lib/datas/songs/calm.mp3
-    - lib/datas/songs/charm.mp3
-    - lib/datas/songs/cle.mp3
-    - lib/datas/songs/dior.mp3
-    - lib/datas/songs/dirty.mp3
-    - lib/datas/songs/dull.mp3
-    - lib/datas/songs/dupe.mp3
-    - lib/datas/songs/gasolian.mp3
-    - lib/datas/songs/ginger.mp3
-    - lib/datas/songs/girlfriend.mp3
-    - lib/datas/songs/holiday.mp3
-    - lib/datas/songs/imagine.mp3
-    - lib/datas/songs/joanna.mp3
-    - lib/datas/songs/joha.mp3
-    - lib/datas/songs/lolo.m4a
-    - lib/datas/songs/lonely.mp3
-    - lib/datas/songs/melo.mp3
-    - lib/datas/songs/mess.m4a
-    - lib/datas/songs/meuda.mp3
-    - lib/datas/songs/mogbe.mp3
-    - lib/datas/songs/nzaza.mp3
-    - lib/datas/songs/organise.mp3
-    - lib/datas/songs/parapluie.mp3
-    - lib/datas/songs/reason.mp3
-    - lib/datas/songs/snapchat.mp3
-    - lib/datas/songs/soso.mp3
-    - lib/datas/songs/soundgasm.mp3
-    - lib/datas/songs/sungba.mp3
-    - lib/datas/songs/terminator.mp3
-    - lib/datas/songs/wewe.mp3
-    - lib/datas/songs/wo.mp3
-    - lib/datas/songs/woman.m4a
-    - lib/datas/songs/yours.mp3
-    - lib/datas/thumb/artistes/asake1.jpg
-    - lib/datas/thumb/artistes/cd_tiakola1.jpg
-    - Asake_-_Lonely_At_The_Top_(Official_Video)(256k).mp3
-    - lib/datas/thumb/artistes/rema.jpg
-    - neptune.m4a
-    - lib/datas/songs/loosing_game_drill_remix_by_precious_(lyrics)__arcade_drill_remix(256k).mp3
-    - lib/datas/thumb/artistes/ohmalay.jpg
-    - lib/datas/thumb/artistes/ruger.png
-    - lib/datas/thumb/omah.jpeg
-    - lib/datas/thumb/tiako.jpg
-    - lib/datas/thumb/ruger.jpg
-    - lib/datas/thumb/rema.jpg
-    - lib/datas/thumb/asake.png #
+    - lib/datas/songs/
+    - lib/datas/thumb/artistes/
+    - lib/datas/thumb/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
